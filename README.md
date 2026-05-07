@@ -2,7 +2,7 @@ Indian Automobile Enterprise Database — Oracle SQL
 
 A fully normalized 19-table relational database modeling the complete Indian automobile manufacturing ecosystem — from company hierarchy and vehicle configuration to dealership sales pipeline, supply chain traceability, and a PHP web portal for real-time inventory search.
 
-![ER Diagram](docs/automobile_erd.jpeg)
+![ER Diagram](docs/automobile erd.jpeg)
 
 Database Architecture
 The schema models a real-world automobile enterprise across 6 dependency layers:
