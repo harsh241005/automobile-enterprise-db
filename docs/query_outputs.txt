@@ -1,0 +1,141 @@
+
+COMPANY_NAME                                                                                         UNITS_SOLD TOTAL_REVENUE
+---------------------------------------------------------------------------------------------------- ---------- -------------
+GRAND TOTAL                                                                                                  10      17600000
+Toyota Kirloskar                                                                                              1       4500000
+Mahindra                                                                                                      2       4300000
+Tata Motors                                                                                                   2       3300000
+Maruti Suzuki                                                                                                 2       1600000
+Hyundai Motor India                                                                                           1       1400000
+Kia India                                                                                                     1       1300000
+Honda Cars India                                                                                              1       1200000
+
+8 rows selected. 
+
+
+BODY_STYLE                     UNITS_SOLD TOTAL_REVENUE
+------------------------------ ---------- -------------
+GRAND TOTAL                            10      17600000
+SUV                                     4      11000000
+Compact SUV                             3       3800000
+Sedan                                   2       2050000
+Hatchback                               1        750000
+
+
+SALE_DAT MODEL_NAME                                                                                           SALE_PRICE CUMULATIVE_REVENUE
+-------- ---------------------------------------------------------------------------------------------------- ---------- ------------------
+15-03-24 Swift                                                                                                    750000             750000
+20-03-24 Dzire                                                                                                    850000            1600000
+01-04-24 Nexon                                                                                                   1100000            2700000
+10-04-24 Harrier                                                                                                 2200000            4900000
+20-04-24 Thar                                                                                                    1800000            6700000
+01-05-24 XUV700                                                                                                  2500000            9200000
+10-05-24 Creta                                                                                                   1400000           10600000
+15-05-24 City                                                                                                    1200000           11800000
+25-05-24 Fortuner                                                                                                4500000           16300000
+01-06-24 Seltos                                                                                                  1300000           17600000
+
+10 rows selected. 
+
+
+CUSTOMER_NAME                                                                                        GENDER               ANNUAL_INCOME INCOME_RANK
+---------------------------------------------------------------------------------------------------- -------------------- ------------- -----------
+Sneha                                                                                                FEMALE                      900000           1
+Neha                                                                                                 FEMALE                      850000           2
+Anita                                                                                                FEMALE                      820000           3
+Priya                                                                                                FEMALE                      800000           4
+Arjun                                                                                                MALE                        750000           5
+Pooja                                                                                                FEMALE                      720000           6
+Rohit                                                                                                MALE                        700000           7
+Meera                                                                                                FEMALE                      650000           8
+Amit                                                                                                 MALE                        600000           9
+Vikas                                                                                                MALE                        580000          10
+Karan                                                                                                MALE                        550000          11
+
+CUSTOMER_NAME                                                                                        GENDER               ANNUAL_INCOME INCOME_RANK
+---------------------------------------------------------------------------------------------------- -------------------- ------------- -----------
+Rahul                                                                                                MALE                        500000          12
+
+12 rows selected. 
+
+
+GENDER               TOTAL_CUSTOMERS AVG_INCOME MIN_INCOME MAX_INCOME
+-------------------- --------------- ---------- ---------- ----------
+FEMALE                             6     790000     650000     900000
+ALL GENDERS                       12  701666.67     500000     900000
+MALE                               6  613333.33     500000     750000
+
+
+MODEL_NAME                                                                                           TOTAL_PRODUCED       SOLD     UNSOLD
+---------------------------------------------------------------------------------------------------- -------------- ---------- ----------
+City                                                                                                              1          1          0
+Creta                                                                                                             1          1          0
+Dzire                                                                                                             1          1          0
+Fortuner                                                                                                          1          1          0
+Harrier                                                                                                           1          1          0
+Hector                                                                                                            1          0          1
+Kwid                                                                                                              1          0          1
+Nexon                                                                                                             1          1          0
+Safari                                                                                                            1          0          1
+Seltos                                                                                                            1          1          0
+Swift                                                                                                             2          1          1
+
+MODEL_NAME                                                                                           TOTAL_PRODUCED       SOLD     UNSOLD
+---------------------------------------------------------------------------------------------------- -------------- ---------- ----------
+Thar                                                                                                              1          1          0
+XUV700                                                                                                            1          1          0
+i20                                                                                                               1          0          1
+TOTAL                                                                                                            15         10          5
+
+15 rows selected. 
+
+
+COLOUR_NAME                                        VEHICLES_WITH_COLOUR COLOUR_RANK
+-------------------------------------------------- -------------------- -----------
+White                                                                 6           1
+Grey                                                                  3           2
+Black                                                                 2           3
+Red                                                                   2           3
+Blue                                                                  2           3
+
+
+SUPPLIER_NAME                                                                                        PARTS_SUPPLIED
+---------------------------------------------------------------------------------------------------- --------------
+ALL SUPPLIERS                                                                                                    15
+ZF India                                                                                                          2
+Valeo                                                                                                             2
+Bosch                                                                                                             2
+Motherson                                                                                                         2
+Denso                                                                                                             2
+TVS Motors Supply                                                                                                 1
+Bharat Forge                                                                                                      1
+Ashok Leyland Parts                                                                                               1
+Amara Raja                                                                                                        1
+Exide                                                                                                             1
+
+11 rows selected. 
+
+
+PART_NAME                                                                                            PART_TYPE                                                                                            USED_IN_MODELS  PART_RANK
+---------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- -------------- ----------
+Brake                                                                                                Safety                                                                                                           12          1
+Gearbox                                                                                              Mechanical                                                                                                        3          2
+Battery                                                                                              Electrical                                                                                                        3          2
+Suspension                                                                                           Mechanical                                                                                                        2          3
+Engine Block                                                                                         Mechanical                                                                                                        2          3
+Radiator                                                                                             Cooling                                                                                                           1          4
+Fuel Pump                                                                                            Fuel                                                                                                              1          4
+Steering                                                                                             Mechanical                                                                                                        1          4
+Clutch                                                                                               Mechanical                                                                                                        1          4
+ECU                                                                                                  Electronics                                                                                                       1          4
+
+10 rows selected. 
+
+
+CUSTOMER_NAME                                                                                        MODEL_NAME                                                                                           STYLE_NAME                     SALE_PRICE
+---------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- ------------------------------ ----------
+Sneha                                                                                                Harrier                                                                                              SUV                               2200000
+Rohit                                                                                                Thar                                                                                                 SUV                               1800000
+Neha                                                                                                 XUV700                                                                                               SUV                               2500000
+Arjun                                                                                                Fortuner                                                                                             SUV                               4500000
+
